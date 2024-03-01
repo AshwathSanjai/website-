@@ -1,0 +1,174 @@
+body {
+    background-color: #ffdebe;
+  }
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffac7f;
+    color: #333333;
+    padding: 10px;
+    border-color: #ffac7f;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+    color: #333333;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 500px;
+    transition: all 0.3s ease;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+.container {
+    position: fixed;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    width: 1300px; 
+    border-radius: 20px;
+    background-color: #ffdebe;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+    border: 1px solid black; 
+  }
+
+  .input-container {
+    flex-grow: 1;
+    position: relative;
+  }
+
+  .input-container input[type="text"] {
+    width: calc(100% - 30px); 
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    border-right: none; 
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0; 
+    background-color: #ffdebe;
+  }
+
+  .button-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+
+  .button-container button {
+    width: 24px; 
+    height: 24px; 
+    border: none;
+    border-radius: 5px; 
+    background-color: #ffac7f;
+    color: white;
+    cursor: pointer;
+  }
+
+  .button-container button + button {
+    margin-left: 5px;
+  }
+
+  .button-container button.left-btn {
+    margin-right: 5px; 
+  }
+
+  .button-container button.speech-btn {
+    margin-right: 5px; 
+  }
+
+  .button-container button.enter-btn {
+    margin-right: 5px; 
+  }
+
+  .button-container button:last-child {
+    margin-left: auto; 
+  }
+
+  .button-container button:hover {
+    background-color: #45a049;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .response {
+    margin-top: 100px;
+    width: 800px;
+    height: 50px;
+    background-color: #ffcfa3;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.responsetext {
+    color: #333333;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 350px;
+    transition: all 0.3s ease;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.questioninput {
+    width: 800px; 
+    height: 50px; 
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto; /* This will move the big box to the right */
+    margin-right: 0; /* Reset margin-right to ensure it's aligned properly */
+    overflow-y: auto;
+    background-color: #ffc08d;
+  }
+  
+    .question{
+        color: #333333;
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-left: 350px;
+        transition: all 0.3s ease;
+        font-family: "Anta", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
